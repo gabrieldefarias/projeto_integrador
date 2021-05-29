@@ -53,6 +53,22 @@ body{
     border: 1px solid black;
     height: 600px;
 }
+#estrutura #corpo .artigo{
+    display: flex;
+}
+#estrutura #corpo .artigo .conteudo{
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 0 100px;
+}
+#estrutura #corpo .artigo .conteudo p{
+    margin-top: 41px;
+}
+/*======================= FOOTER ==================================*/
 #estrutura #footer{
     border: 1px solid black;
     height: 200px;
