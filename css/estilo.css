@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#estrutura{
+    margin: 0 150px;
+}
+#estrutura #header{
+    border: 1px solid black;
+    height: 200px;
+}
+#estrutura #header #logo{
+    margin: 15px 30px;
+    border: 1px solid black;
+    width: 96px;
+    text-align: center
+}
+#estrutura #header #menu{
+    margin-left: 450px;
+    margin-top: 50px;
+}
+#estrutura #header #menu ul{
+    margin: 0;
+    padding: 0;
+}
+#estrutura #header #menu li{
+    list-style: none;
+    margin: 0 10px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+}
+#estrutura #header #menu a{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#estrutura #header #menu a:hover{
+    background-color: white;
+    color: blue;
+}
+#estrutura #header #menu  .atual{
+    background-color: white;
+    color: blue;
+}
+/*======================= CORPO ==================================*/
+#estrutura #corpo{
+    border: 1px solid black;
+    height: 600px;
+}
+#estrutura #footer{
+    border: 1px solid black;
+    height: 200px;
+}
