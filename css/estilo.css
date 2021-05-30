@@ -71,5 +71,17 @@ body{
 /*======================= FOOTER ==================================*/
 #estrutura #footer{
     border: 1px solid black;
-    height: 200px;
+    display: flex;
+    background-color: blue;
+    color: white;
+    width: 100%;
+}
+#estrutura #footer .rodape{
+    flex-direction: column;
+    width: 50%;
+    border-left: 1px solid;
+    padding: 0px 130px
+}
+#estrutura #footer .rodape p{
+    font-size: 17px;
 }
