@@ -39,6 +39,7 @@ body{
     display: inline-block;
     border: 1px solid black;
     border-radius: 5px;
+    text-decoration: none;
 }
 #estrutura #header #menu a:hover{
     background-color: white;
